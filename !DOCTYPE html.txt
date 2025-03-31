@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ghost_google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بك في Ghost_google</h1>
+        <nav>
+            <ul>
+                <li><a href="#store">المتجر</a></li>
+                <li><a href="#links">الروابط</a></li>
+                <li><a href="#events">الفعاليات</a></li>
+                <li><a href="#about">من نحن</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="store">
+        <h2>المتجر</h2>
+        <p>محتويات المتجر هنا.</p>
+    </section>
+
+    <section id="links">
+        <h2>الروابط</h2>
+        <p>قائمة الروابط هنا.</p>
+    </section>
+
+    <section id="events">
+        <h2>الفعاليات</h2>
+        <p>قائمة الفعاليات هنا.</p>
+    </section>
+
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>معلومات عن الموقع هنا.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ghost_google. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
