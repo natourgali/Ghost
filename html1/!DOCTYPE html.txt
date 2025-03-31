@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ghost_google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بك في Ghost_google</h1>
+        <nav>
+            <ul>
+                <li><a href="#store">المتجر</a></li>
+                <li><a href="#links">الروابط</a></li>
+                <li><a href="#events">الفعاليات</a></li>
+                <li><a href="#about">من نحن</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="store">
+        <h2>المتجر</h2>
+        <p>محتويات المتجر هنا.</p>
+    </section>
+
+    <section id="links">
+        <h2>الروابط</h2>
+        <p>قائمة الروابط هنا.</p>
+    </section>
+
+    <section id="events">
+        <h2>الفعاليات</h2>
+        <p>قائمة الفعاليات هنا.</p>
+    </section>
+
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>معلومات عن الموقع هنا.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ghost_google. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
